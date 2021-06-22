@@ -1,0 +1,36 @@
+.filter {
+  margin-top: 45px;
+  align-self: left;
+}
+
+.filter__title {
+  font-weight: bold;
+  letter-spacing: -0.3px;
+}
+
+.filter__input {
+  width: 418px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 18px;
+  border: 1px solid #D8D8D8;
+  border-radius: 25px;
+  outline: none;
+}
+
+@media (max-width: 530px) {
+  .filter{
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 10px;
+  }
+
+  .filter__title {
+    margin-left: 15px;
+  }
+
+  .filter__input {
+    width: 300px;
+    margin: 10px;
+  }
+}

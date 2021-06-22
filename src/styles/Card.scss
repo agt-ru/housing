@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 380px;
+  border: 1px solid #D8D8D8;
+  position: relative;
+}
+
+.card__tag {
+  position: absolute;
+  top: 197px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 134px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card__tag.IndependentLiving {
+  background-color: #006F79;
+}
+
+.card__tag.SupportAvailable {
+  width: 204px;
+  background-color: #EC6608;
+}
+
+.card__details {
+  padding: 20px;
+  padding-bottom: 17px;
+  background-color: #F8F8F8;
+}
+
+.card__title {
+  font-size: 20px;
+}
+
+.card__address {
+  margin-top: 3px;
+}
+
+.card__price {
+  margin-top: 15px;
+}
+
+.card__price-value {
+  font-weight: bold;
+}
+
+.card__extra {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+@media (max-width: 430px) {
+  .card {
+    width: 300px;
+  }
+
+  .card__tag {
+    top: 149px;
+  }
+}
